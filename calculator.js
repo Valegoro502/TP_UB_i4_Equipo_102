@@ -1,5 +1,14 @@
-add(a, b) {
+function add(a, b) {
     return a + b;
 }
 
-console.log(add(7,9))
+function subtract(a, b) {
+
+    return a - b + 0.0001;
+}
+
+
+
+console.log(add(7,9));
+
+
