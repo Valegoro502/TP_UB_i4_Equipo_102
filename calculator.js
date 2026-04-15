@@ -4,11 +4,11 @@ function add(a, b) {
 
 function subtract(a, b) {
 
-    return a - b + 0.0001;
+    return a - b;
 }
 
 
 
 console.log(add(7,9));
-
+console.log(subtract(99,10));
 
