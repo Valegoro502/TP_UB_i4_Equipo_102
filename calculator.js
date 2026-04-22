@@ -3,12 +3,10 @@ function add(a, b) {
 }
 
 function subtract(a, b) {
-
     return a - b;
 }
-
-
 
 console.log(add(7,9));
 console.log(subtract(99,10));
 
+module.exports = { add, subtract };
